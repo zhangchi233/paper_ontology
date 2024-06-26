@@ -1,0 +1,183 @@
+\begin{thebibliography}{35}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Amorocho and Hartmann(2021)]{amorocho2021reno}
+Jerson Alexis~Pinzon Amorocho and Timo Hartmann.
+\newblock Reno-inst: An ontology to support renovation projects planning and renovation products installation.
+\newblock \emph{Advanced Engineering Informatics}, 50:\penalty0 101415, 2021.
+
+\bibitem[Arena(2016)]{arena2016construction}
+Lois~B Arena.
+\newblock Construction guidelines for high r-value walls without exterior rigid insulation.
+\newblock Technical report, Steven Winter Associates, Inc., Norwalk, CT (United States). Consortium for~…, 2016.
+
+\bibitem[Britain et~al.(2001)Britain, Health, Commission, et~al.]{britain2001health}
+Great Britain, Health, Safety Commission, et~al.
+\newblock \emph{Health and safety statistics 2000/01}.
+\newblock HSE Books, 2001.
+
+\bibitem[Buser et~al.(2019)Buser, Carlsson, and Koch]{buser2019interactive}
+Martine Buser, Veronica Carlsson, and Christian Koch.
+\newblock Interactive shaping of expertise: The play between house-owner and sme contractors negotiating renovation.
+\newblock In \emph{THIRTY-FIFTH ANNUAL CONFERENCE}, page 104, 2019.
+
+\bibitem[Ding et~al.(2016)Ding, Zhong, Wu, and Luo]{ding2016construction}
+LY~Ding, BT~Zhong, Song Wu, and HB~Luo.
+\newblock Construction risk knowledge management in bim using ontology and semantic web technology.
+\newblock \emph{Safety science}, 87:\penalty0 202--213, 2016.
+
+\bibitem[Donini et~al.(1996)Donini, Lenzerini, Nardi, Schaerf, et~al.]{donini1996reasoning}
+Francesco~M Donini, Maurizio Lenzerini, Daniele Nardi, Andrea Schaerf, et~al.
+\newblock Reasoning in description logics.
+\newblock \emph{Principles of knowledge representation}, 1:\penalty0 191--236, 1996.
+
+\bibitem[Doukari et~al.(2023)Doukari, Scoditti, Kassem, and Greenwood]{doukari2023bim}
+Omar Doukari, Enrico Scoditti, Mohamad Kassem, and David Greenwood.
+\newblock A bim-based techno-economic framework and tool for evaluating and comparing building renovation strategies.
+\newblock \emph{Journal of Information Technology in Construction}, 28, 2023.
+
+\bibitem[Doukari et~al.(2024)Doukari, Wakefield, Martinez, and Kassem]{doukari2024ontology}
+Omar Doukari, James Wakefield, Pablo Martinez, and Mohamad Kassem.
+\newblock An ontology-based tool for safety management in building renovation projects.
+\newblock \emph{Journal of Building Engineering}, 84:\penalty0 108609, 2024.
+
+\bibitem[Estudillo et~al.(2024)Estudillo, Forteza, Carretero-G{\'o}mez, and Rej{\'o}n-Guardia]{estudillo2024role}
+Barbara Estudillo, Francisco~J Forteza, Jose~M Carretero-G{\'o}mez, and Francisco Rej{\'o}n-Guardia.
+\newblock The role of organizational factors in promoting workers' health in the construction sector: a comprehensive analysis.
+\newblock \emph{Journal of safety research}, 88:\penalty0 41--55, 2024.
+
+\bibitem[Fang et~al.(2020)Fang, Ma, Love, Luo, Ding, and Zhou]{fang2020knowledge}
+Weili Fang, Ling Ma, Peter~ED Love, Hanbin Luo, Lieyun Ding, and AO~Zhou.
+\newblock Knowledge graph for identifying hazards on construction sites: Integrating computer vision with ontology.
+\newblock \emph{Automation in Construction}, 119:\penalty0 103310, 2020.
+
+\bibitem[Gao et~al.(2022)Gao, Ren, and Li]{gao2022knowledge}
+Shang Gao, Guoqian Ren, and Haijiang Li.
+\newblock Knowledge management in construction health and safety based on ontology modeling.
+\newblock \emph{Applied Sciences}, 12\penalty0 (17):\penalty0 8574, 2022.
+
+\bibitem[Gruber(1995)]{gruber1995toward}
+Thomas~R Gruber.
+\newblock Toward principles for the design of ontologies used for knowledge sharing?
+\newblock \emph{International journal of human-computer studies}, 43\penalty0 (5-6):\penalty0 907--928, 1995.
+
+\bibitem[Guo and Goh(2017)]{guo2017ontology}
+Brian~HW Guo and Yang~Miang Goh.
+\newblock Ontology for design of active fall protection systems.
+\newblock \emph{Automation in Construction}, 82:\penalty0 138--153, 2017.
+
+\bibitem[Jensen and Maslesa(2015)]{jensen2015value}
+Per~Anker Jensen and Esmir Maslesa.
+\newblock Value based building renovation--a tool for decision-making and evaluation.
+\newblock \emph{Building and environment}, 92:\penalty0 1--9, 2015.
+
+\bibitem[Kim et~al.(2016)Kim, Cho, and Zhang]{kim2016integrating}
+Kyungki Kim, Yong Cho, and Sijie Zhang.
+\newblock Integrating work sequences and temporary structures into safety planning: Automated scaffolding-related safety hazard identification and prevention in bim.
+\newblock \emph{Automation in Construction}, 70:\penalty0 128--142, 2016.
+
+\bibitem[Lee and Yu(2023)]{lee2023ontological}
+Seul-Ki Lee and Jung-Ho Yu.
+\newblock Ontological inference process using ai-based object recognition for hazard awareness in construction sites.
+\newblock \emph{Automation in Construction}, 153:\penalty0 104961, 2023.
+
+\bibitem[Mohan and Arumugam(2011)]{mohan2011constructing}
+A~Mohan and G~Arumugam.
+\newblock Constructing railway ontology using web ontology language and semantic web rule language.
+\newblock \emph{Int. J. Comp. Tech. Appl}, 2\penalty0 (2):\penalty0 314--321, 2011.
+
+\bibitem[Qi and Costin(2023)]{qi2023bim}
+Bing Qi and Aaron Costin.
+\newblock Bim and ontology-based dfma framework for prefabricated component.
+\newblock \emph{Buildings}, 13\penalty0 (2):\penalty0 394, 2023.
+
+\bibitem[Rodger et~al.(2019)Rodger, Callaghan, and Thomson]{rodger2019integration}
+Dayna Rodger, Nicola Callaghan, and Craig Thomson.
+\newblock The integration of retrofit practice within social housing.
+\newblock In \emph{35th Annual Conference on Association of Researchers in Construction Management}, pages 832--841. ARCOM, 2019.
+
+\bibitem[Salvalai et~al.(2017)Salvalai, Sesana, and Iannaccone]{salvalai2017deep}
+Graziano Salvalai, Marta~Maria Sesana, and Giuliana Iannaccone.
+\newblock Deep renovation of multi-storey multi-owner existing residential buildings: A pilot case study in italy.
+\newblock \emph{Energy and Buildings}, 148:\penalty0 23--36, 2017.
+
+\bibitem[Shen et~al.(2022{\natexlab{a}})Shen, Wu, Deng, Deng, and Cheng]{shen2022bim}
+Qiyu Shen, Songfei Wu, Yichuan Deng, Hui Deng, and Jack~CP Cheng.
+\newblock Bim-based dynamic construction safety rule checking using ontology and natural language processing.
+\newblock \emph{Buildings}, 12\penalty0 (5):\penalty0 564, 2022{\natexlab{a}}.
+
+\bibitem[Shen et~al.(2022{\natexlab{b}})Shen, Xu, Lin, Cui, Shi, and Liu]{shen2022safety}
+Ye~Shen, Min Xu, Yini Lin, Caiyun Cui, Xiaobo Shi, and Yong Liu.
+\newblock Safety risk management of prefabricated building construction based on ontology technology in the bim environment.
+\newblock \emph{Buildings}, 12\penalty0 (6):\penalty0 765, 2022{\natexlab{b}}.
+
+\bibitem[Shnapp et~al.(2013)Shnapp, Sitja, and Laustsen]{shnapp2013deep}
+Sophie Shnapp, Rosa Sitja, and Jens Laustsen.
+\newblock What is a deep renovation definition.
+\newblock \emph{Global Buildings Performance Network (GBPN): Paris, France}, 2013.
+
+\bibitem[Singh et~al.(2014)Singh, Abdelhamid, Mrozowski, and El-Gafy]{singh2014investigation}
+Yash Singh, Tariq Abdelhamid, Tim Mrozowski, and Mohamed~A El-Gafy.
+\newblock Investigation of contemporary performance measurement systems for production management of renovation projects.
+\newblock \emph{Journal of Construction Engineering}, 2014\penalty0 (1):\penalty0 417853, 2014.
+
+\bibitem[Wang and Boukamp(2011)]{wang2011ontology}
+Han-Hsiang Wang and Frank Boukamp.
+\newblock Ontology-based representation and reasoning framework for supporting job hazard analysis.
+\newblock \emph{Journal of computing in Civil Engineering}, 25\penalty0 (6):\penalty0 442--456, 2011.
+
+\bibitem[Xing et~al.(2019)Xing, Zhong, Luo, Li, and Wu]{xing2019ontology}
+Xuejiao Xing, Botao Zhong, Hanbin Luo, Heng Li, and Haitao Wu.
+\newblock Ontology for safety risk identification in metro construction.
+\newblock \emph{Computers in Industry}, 109:\penalty0 14--30, 2019.
+
+\bibitem[Xu et~al.(2023)Xu, Wang, Huo, Qin, and Zhou]{xu2023comparative}
+Hongtao Xu, Hao Wang, Qiannan Huo, Yue Qin, and Hui Zhou.
+\newblock Comparative study of chinese, european and iso external thermal insulation composite system (etics) standards and technical recommendations.
+\newblock \emph{Journal of Building Engineering}, 68:\penalty0 105687, 2023.
+
+\bibitem[Xu et~al.(2022)Xu, Zhang, Cui, and Zhao]{xu2022ontology}
+Minze Xu, Peng Zhang, Chunyi Cui, and Jingtong Zhao.
+\newblock An ontology-based holistic and probabilistic framework for seismic risk assessment of buildings.
+\newblock \emph{Buildings}, 12\penalty0 (9):\penalty0 1391, 2022.
+
+\bibitem[Zhang et~al.(2022)Zhang, Wang, Wang, Sun, and Zhao]{zhang2022automatic}
+Lite Zhang, Junjie Wang, Yanbo Wang, Hai Sun, and Xuebing Zhao.
+\newblock Automatic construction site hazard identification integrating construction scene graphs with bert based domain knowledge.
+\newblock \emph{Automation in construction}, 142:\penalty0 104535, 2022.
+
+\bibitem[Zhang and El-Gohary(2021)]{zhang2021semantic}
+Ruichuan Zhang and Nora El-Gohary.
+\newblock Semantic representation learning and information integration of bim and regulations.
+\newblock In \emph{Computing in Civil Engineering 2021}, pages 466--473. 2021.
+
+\bibitem[Zhang et~al.(2015)Zhang, Boukamp, and Teizer]{zhang2015ontology}
+Sijie Zhang, Frank Boukamp, and Jochen Teizer.
+\newblock Ontology-based semantic modeling of construction safety knowledge: Towards automated safety planning for job hazard analysis (jha).
+\newblock \emph{Automation in Construction}, 52:\penalty0 29--41, 2015.
+
+\bibitem[Zhong et~al.(2020)Zhong, Li, Luo, Zhou, Fang, and Xing]{zhong2020ontology}
+Botao Zhong, Heng Li, Hanbin Luo, Jingyang Zhou, Weili Fang, and Xuejiao Xing.
+\newblock Ontology-based semantic modeling of knowledge in construction: Classification and identification of hazards implied in images.
+\newblock \emph{Journal of construction engineering and management}, 146\penalty0 (4):\penalty0 04020013, 2020.
+
+\bibitem[Zhong et~al.(2015)Zhong, Ding, Love, and Luo]{zhong2015ontological}
+BT~Zhong, LY~Ding, Peter~ED Love, and HB~Luo.
+\newblock An ontological approach for technical plan definition and verification in construction.
+\newblock \emph{Automation in Construction}, 55:\penalty0 47--57, 2015.
+
+\bibitem[Zhou and El-Gohary(2021)]{zhou2021semantic}
+Peng Zhou and Nora El-Gohary.
+\newblock Semantic information alignment of bims to computer-interpretable regulations using ontologies and deep learning.
+\newblock \emph{Advanced Engineering Informatics}, 48:\penalty0 101239, 2021.
+
+\bibitem[Zhou et~al.(2023)Zhou, Bao, Shu, Li, and Li]{zhou2023bim}
+Yuhang Zhou, Tengfei Bao, Xiaosong Shu, Yueyang Li, and Yangtao Li.
+\newblock Bim and ontology-based knowledge management for dam safety monitoring.
+\newblock \emph{Automation in Construction}, 145:\penalty0 104649, 2023.
+
+\end{thebibliography}
