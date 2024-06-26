@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: conference_101719.aux
+The style file: plainnat.bst
+Database file #1: references.bib
+Warning--empty publisher in zhang2021semantic
+You've used 35 entries,
+            2773 wiz_defined-function locations,
+            801 strings with 11780 characters,
+and the built_in function-call counts, 17735 in all, are:
+= -- 1542
+> -- 1188
+< -- 14
++ -- 399
+- -- 363
+* -- 1544
+:= -- 2769
+add.period$ -- 107
+call.type$ -- 35
+change.case$ -- 224
+chr.to.int$ -- 34
+cite$ -- 71
+duplicate$ -- 752
+empty$ -- 1352
+format.name$ -- 416
+if$ -- 3664
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 35
+newline$ -- 183
+num.names$ -- 140
+pop$ -- 403
+preamble$ -- 1
+purify$ -- 189
+quote$ -- 0
+skip$ -- 586
+stack$ -- 0
+substring$ -- 660
+swap$ -- 63
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 380
+warning$ -- 1
+while$ -- 153
+width$ -- 0
+write$ -- 461
+(There was 1 warning)

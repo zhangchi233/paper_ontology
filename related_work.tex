@@ -1,0 +1,75 @@
+\section{Related Work}
+\label{sec:related_work}  
+\subsection*{Building Renovation Activities}
+Accoridng to the definition of the Global Building Performance Network (GBPN) \cite[]{shnapp2013deep},  
+renovation activities is a process asscociated mainly with building envelope of improving existing images or modernizing buildings in a good condition \cite[]{amorocho2021reno}.
+Many researchers have mentioned the difficulty and obstacle to implement safety management in renovation activities \cite[]{doukari2024ontology,amorocho2021reno}.
+% The first challenge is the complexity and uncertainty of the renovation activities \cite[]{european2020renovation}. 
+% \cite{singh2014investigation,salvalai2017deep} pointed out the due to the effects of building residents, 
+% the safety management faces many uncertainties and risks. 
+% Some protection measures may have to been taken for a long time for the safety of residents such as the prevention of dust and noise \cite[]{salvalai2017deep}.
+\cite{singh2014investigation,salvalai2017deep} pointed out the complexity and uncertainty of the renovation activities. 
+For example, the effects of building residents may cause many uncertainties and risks, some protection measures may have to been taken for a long time for the safety of residents such as the prevention of dust and noise \cite[]{salvalai2017deep}.
+
+\cite{doukari2024ontology,amorocho2021reno} stressed that for the safety management in renovation activities, a comprehensive knowledge of building components, construction methods, safety regulations and safety measures is required.
+ Current guidelines and instructions \cite[]{xu2023comparative,arena2016construction} are gathered from common construction activities, which are not enough to support the safety management in renovation activities \cite[]{doukari2024ontology}.
+As a results, the fragmentation of knowledge and lacks of professional personnel for safety management in renovation activities 
+may lead to the increase of accidents and high safety management costs \cite[]{buser2019interactive,rodger2019integration}.
+
+Ontology, as a formal and explicit specification of a shared conceptualization \cite[]{gruber1995toward}, 
+can be used to organize and represent the knowledge of building renovation activities, boosting the safety management in renovation activities \cite[]{doukari2024ontology,amorocho2021reno}.
+
+\subsection*{Ontology-based Risk Management System}
+Ontology-based safety management system has been widely applied to Architectural, Engineering and Construction (AEC) industry.
+\cite{zhong2015ontological} utilized ontology for construction regulation and rules to support to ensure the compliance of building codes, regulations and client requirements. \cite{zhang2015ontology,wang2011ontology} proposed an ontology-based job hazard analysis system to generate job hazard analysis reports including potential hazards and related regulations. 
+\cite{guo2017ontology} developed an ontology for active fall protection system to reduce the risk of fall accidents in construction sites. 
+SRI-Onto \cite[]{xing2019ontology} is an ontology-based system composed of three components: fact base management, rule base management and case based management. Applying SPARQL query language, 
+SRI-Onto can identify related risks and provide corresponding rules and cases to support decision-making. 
+\cite{gao2022knowledge} introduced ontology-based methods for health and safety management in all stages of construction projects. 
+
+In recent years, ontology-based safety management system has been applied to \textbf{building renovation activities}. 
+\cite{amorocho2021reno} build ontology via literature review, interviews with experts and workshops to support the safety management in renovation activities. 
+\cite{doukari2024ontology} integrate build ontology on Protégé and integrate it with BIM to support the safety management in renovation activities. 
+
+Although the various ontology-based safety management systems have been proposed, they share common components and workflows.
+Firstly, the ontology is built by domain experts and knowledge engineers manually. Scholars and experts define the concepts, properties and relationships of the ontology.
+Secondly, the ontology is always built on Protégé using semantic web rule language (SWRL) and performs knowledge reasoning via knowledge reasoning engines like Jena or JESS.   
+Lastly, the knowledge inference is performed to support safety management given elements extracted from information sources like BIM, CAD, and documents.  
+
+\subsection*{Multi-modal methods in Building Evaluation}
+To support the safety management in renovation activities, multi-modal methods have been proposed to extract knowledge from different sources.
+\subsubsection*{BIM} 
+More and more researchers have realized the value of Building Information Modeling (BIM) in safety management in construction projects \cite[]{ding2016construction}.
+And we ovserve a trend that combining BIM with ontology to support safety management in construction projects. 
+\cite{shen2022bim} applied bim for safety management in prefabricated building construction. Applying programming detection algorithm implemented in JAVA, a mapping between 
+owl file and BIM model is established, and then knowledge inference is performed to generate risk identification and related rules \cite[]{shen2022bim}. 
+\cite{zhou2023bim} extract context information from BIM and stroe it into relational database (RDB), by applying mapping between 
+tables in RDB with ontology, the information is converted to triplets and then knowledge inference is performed to support safety management in construction projects \cite[]{zhou2023bim}.
+\cite{qi2023bim} applying BIM and ontology for conflict detection and resolving for manufacturing design and assembly for prefabricated buildings. 
+Unlike other method directly extract semantic information from BIM, \cite{xu2022ontology} use the data analysis and simulation results to establish mapping between BIM and ontology for damage assessment in construction projects.
+
+Inspired by the success of BIM and ontology in safety management in construction projects, in recent research of safety management in renovation activities, BIM and ontology are also combined to support risk identification and mitigation \cite[]{doukari2024ontology}.
+
+\subsubsection*{Natural Language Processing}
+Similar to BIM, natural language processing (NLP) has also been applied for knowledge inference in ontology-based safety management in construction projects.
+Traditional rule-based information extraction are rigid and hard to generalize, while deep learning-based NLP methods are more flexible and generalizable for information 
+extraction and integration \cite[]{zhang2021semantic}. \cite{zhang2021semantic} leverages transformer-based methods to extract semantic representation from BIM and regulation documents for compliance checks, 
+which reaches an accuracy of 80\%. Combined with ontology, NLP based methods are able to help mapping the components of BIM with concepts in ontology for knowledge inference \cite[]{ding2016construction,zhou2021semantic}. 
+\cite{shen2022bim} mainly use NLP to efficient query risk information in interested regions from BIM in onlogy-based safety management system, 
+simplifying the process to filter inferred knowledge from report.
+
+\subsubsection*{Images}
+The advancement of computer vision has enabled the extraction of semantic information from images to support safety management in construction projects.
+In construction activities, especially during the construction phase, the images data provide ability to dynamically monitor the construction process and identify potential risks.
+\cite{zhang2022automatic} constructed scene graphs from images via transformer-based neural networks and applying C-Bert to achieve automatical regulation compliance checks.
+\cite{zhong2020ontology} develops a HowNet-based network to extract semantic relation of objects in images and establish a semantic-based database for 
+risk query and knowledge inference. 
+The method of \cite{fang2020knowledge} extract objects and their spatial relations from images by ResNet. Compared with risk identification system integrating images, \cite{fang2020knowledge} used similar methods, but directly store the triplets of ontology in graph database for better relation representations and efficient query. 
+\cite{lee2023ontological} asserts that, compared with deep learning-based risk identification methods, combination with ontology-based methods reduce the necessity of large-scale labeled data and improve the generalization of the model.
+
+% SUMMARY THE MULTIMODAL METHODS    
+In summary, the multi-modal methods in building evaluation have been widely applied to support safety management in construction projects.  
+The multi-model inputs provides more comprehensive information for knowledge inference and make the safety management more efficient and accurate.
+However, multi-modal inputs are limited to knowledge inference stages. 
+The role of multi-modal inputs in ontology-based safety management system is to provide more comprehensive description for ontology and support knowledge inference.
+
