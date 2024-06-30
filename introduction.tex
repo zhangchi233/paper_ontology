@@ -3,11 +3,11 @@
 \subsection*{Background}
 \label{sec:background}
 With the development of urbanization and population growth, 
-the necessity for building renovation is becoming more and more important especially in those area with loads of existing buildings such as Europe \cite[]{jensen2015value}.
+the necessity for building renovation is becoming increasingly important, especially in areas with loads of existing buildings, such as Europe \cite[]{jensen2015value}.
 % point out the risk of building renovation
-The renovation of buildings involves a variety of risks and hazards that can pose a threat to the safety of workers and occupants.
-According to the report of Europe Union and the UK, 
-the averate rate of injuries and fatalities in the construction industry is four times higher than other industries \cite[]{estudillo2024role,britain2001health}. 
+Building renovation involves a variety of risks and hazards that can threaten the safety of workers and occupants.
+According to the European Union and the UK report, 
+the construction industry's average rate of injuries and fatalities is four times higher than in other sectors \cite[]{estudillo2024role,britain2001health}. 
 In the US, the fatalities of construction workers account for 20\% of the total fatalities in the workplace \cite[]{kim2016integrating}.
 
 % point out the difficulty of safety management and regulation, and necessity of build an ontology to organize the knowledge for renovatin
@@ -21,53 +21,53 @@ In the US, the fatalities of construction workers account for 20\% of the total 
 % For human beings, it is difficult to process a large amount of data and extract the useful information from them \cite[]{fang2020knowledge,zhang2017integrating}.
 % % introduce the ontology-based methods for safety management
 %automatically risk and safety assessment methods are proposed \cite[]{xing2019ontology,doukari2023bim,amorocho2021reno,qi2023bim,zhou2023bim}.
-To overcome the challenges of safety management in building renovation, automatically risk and safety assessment system are gained more and more attention \cite[]{xing2019ontology,doukari2023bim,amorocho2021reno,qi2023bim,zhou2023bim}. 
+To overcome the challenges of safety management in building renovation, automatically risk and safety assessment systems are gaining more and more attention \cite[]{xing2019ontology,doukari2023bim,amorocho2021reno,qi2023bim,zhou2023bim}. 
 Ontology is defined by Gruber as a formal, explicit specification of a shared conceptualization \cite[]{gruber1995toward}. 
-The ontology provides at least two benefits for automatically safety management system development: firstly, ontology can organize the knowledge in a structured way, which can help to improve the efficiency of knowledge management \cite[]{zhang2015ontology}. 
-Secondly, it converts knowledge into a machine-readable format \cite[]{donini1996reasoning}, which make it possible to automatically identify and evaluate risks and hazards from given information sources.
-As a result, ontology-based safety management system has been widely applied to Architectural, Engineering and Construction (AEC) industry \cite[]{zhong2015ontological,zhang2015ontology,wang2011ontology,guo2017ontology,xing2019ontology,gao2022knowledge}.
+The ontology provides at least two benefits for automatic safety management system development. Firstly, ontology can organize the knowledge in a structured way, which can help to improve the efficiency of knowledge management \cite[]{zhang2015ontology}. 
+Secondly, it converts knowledge into a machine-readable format \cite[]{donini1996reasoning}, which makes it possible to automatically identify and evaluate risks and hazards from given information sources.
+As a result, the ontology-based safety management systems have been widely applied to the Architectural, Engineering, and Construction (AEC) industry \cite[]{zhong2015ontological,zhang2015ontology,wang2011ontology,guo2017ontology,xing2019ontology,gao2022knowledge}.
 
-The process of ontology-based safety management system development includes three steps: ontology construction, knowledge extraction,knowledge reasoning and query \cite[]{doukari2024ontology,fang2020knowledge,wang2011ontology}. 
-Firstly the ontology is constructed by domain experts, which includes the concepts, properties, and relationships. The ontology hierarchically organizes the knowledge and specialize the relationships between concepts. 
+The ontology-based safety management system development process includes three steps: ontology construction, knowledge extraction, knowledge reasoning, and query \cite[]{doukari2024ontology,fang2020knowledge,wang2011ontology}. 
+Firstly, the ontology is constructed by domain experts. It includes concepts, properties, and relationships. The ontology hierarchically organizes knowledge and specializes in the relationships between concepts. 
 Secondly, entities and relationships are extracted from information sources such as documents, images, and videos. 
-Finally the knowledge inference are conducted to provide the risk and safety assessment results \cite[]{doukari2024ontology,fang2020knowledge}.
+Finally, the knowledge inference is conducted to provide the risk and safety assessment results \cite[]{doukari2024ontology,fang2020knowledge}.
 
 % introduce the combination of bim and ontology
 %Recently, the combination of Building Information Modeling (BIM) and ontology has been proposed to improve the safety management system in building renovation \cite[]{qi2023bim,zhou2023bim,shen2022safety}. 
 The combination of Building Information Modeling (BIM) and ontology has become a trend in the safety management system development \cite[]{qi2023bim,zhou2023bim,shen2022safety}.
-The BIM is a digital representation of physical and functional characteristics of a building \cite[]{qi2023bim}.
+The BIM is a digital representation of the physical and functional characteristics of a building \cite[]{qi2023bim}.
 Compared with 2D information, BIM provides more dynamic and comprehensive 3D information, which can help to improve the accuracy of risk and safety assessment \cite[]{ding2016construction}. 
 
 %Another development direction is combination of applying multi-modal methods with ontology-based methods to improve the accuracy and efficiency of safety management system. 
 With the development of computer vision and natural language processing, 
-combination of ariticial intelligence and ontology-based methods taking advantages of multi-modal information is another direction to improve the safety management system.
-Artifical intelligence can help to automatically extract entities and relationships from documents and images, which can improve the efficiency and accuracy of information extraction and query \cite[]{zhong2020ontology,zhang2022automatic}.
+Combining artificial intelligence and ontology-based methods that take advantage of multi-modal information is another way to improve the safety management system.
+Artificial intelligence can help automatically extract entities and relationships from documents and images, improving the efficiency and accuracy of information extraction and query \cite[]{zhong2020ontology,zhang2022automatic}.
 
 %Currrent multi-modal methods are usually used for information extraction \cite[]{zhong2020ontology,zhang2022automatic}. 
 \subsection*{Research Gap}
 \label{sec:research_gap}
-Reviewing the literature, we have identified two research gaps in the safety management system development for building renovation.
+Reviewing the literature, we have identified two research gaps in developing building renovation safety management systems.
 
 Firstly, although the application of BIM and multi-modal methods improve the efficiency and accuracy of information extraction and query, 
-the ontology construction process is still manually conducted by domain experts through literature review, interviews, and workshops etc.,
+the ontology construction process is still manually conducted by domain experts through literature review, interviews, workshops, etc.,
 which is time-consuming and labor-intensive \cite[]{doukari2024ontology,amorocho2021reno,shen2022safety,xing2019ontology,zhou2023bim}.
 
 Secondly, the limitation of existing ontology construction and reasoning tools and platforms is another research gap.
-Most research of ontology-based safety management system are developed on Protégé, which is a widely used ontology construction and reasoning platform. 
+Most ontology-based safety management systems research is developed on Protégé, a widely used ontology construction and reasoning platform. 
 The knowledge reasoning engine on Protégé, such as Jena and Pellet, is user-friendly and widely used to discover the implicit knowledge from the ontology \cite[]{amorocho2021reno,doukari2024ontology,doukari2023bim}.   
 But Protégé stores ontology in OWL files, which stores ontology in XML format \cite[]{mohan2011constructing}.  
-The verbose and complex format of XML makes it difficult to be integrated with other tools and platforms.   
+XML's verbose and complex format makes integrating with other tools and platforms challenging.   
 
-Basen on the research gaps, we propose a novel method using large language model (LLM) to automatically extract entities and relationships from documents and images,
-to construct ontology-based safety management system for building renovation.
-We also develop a tool to convert the ontology from OWL to JSON format and store it in Neo4J, which is a graph database that can store and query data in a more efficient way.
-Many programming languages and tools provide APIs to access Neo4J, which make the safety management system more flexible and scalable.
+Based on the research gaps, we propose a novel method using a large language model (LLM) to extract entities and relationships from documents and images automatically,
+to construct an ontology-based safety management system for building renovation.
+We also developed a tool to convert the ontology from OWL to JSON format and store it in Neo4J, a graph database that can store and query data more efficiently.
+Many programming languages and tools provide APIs to access Neo4J, which makes the safety management system more flexible and scalable.
 
 In summary, the contributions of this paper are as follows:
 \begin{enumerate}
-    \item We develop a tool to convert and OWL format to JSON and store it into Neo4J.
-    \item We propose a framework to construct ontology for building renovation safety management system using LLM.
-    \item We design an ontology-based antomatical risk identification system with BIM using LLM.
+    \item We develop a tool to convert OWL format to JSON and store it in Neo4J.
+    \item We propose a framework to construct ontology for building renovation safety management systems using LLM.
+    \item We design an ontology-based automatic risk identification system with BIM using LLM.
 \end{enumerate}
 % Firstly, although the application of BIM and multi-modal methods improve the efficiency and accuracy of information extraction and query, the ontology construction process is still a bottleneck in the safety management system development.
 % Usually the construction of ontology is through literature review, interviews, and workshops, which is time-consuming and labor-intensive \cite[]{doukari2024ontology,amorocho2021reno,shen2022safety,xing2019ontology,zhou2023bim}. 
@@ -87,10 +87,12 @@ In summary, the contributions of this paper are as follows:
 
 \subsection*{Research Scope}
 \label{sec:research_scope}
-The research scope of this paper is the construction of ontology for building renovation safety management system. 
-We only focus on risk identification and evaluation in building renovation, and do not consider other aspects of safety management system, such as safety training and safety culture.
-We also do not consider the risk and safety assessment in other stage of building life cycle, such as design and construction stage.
+The research scope of this paper is the construction of ontology for building renovation of a safety management system. 
+We only focus on risk identification and evaluation in building renovation and do not consider other aspects of the safety management system, such as safety training and safety culture.
+We also do not consider risk and safety assessments at other stages of the building life cycle, such as design and construction.
 
 % Although many scholars have been working on the construction process and operation performance, the renovation of buildings is still a negelcted area \cite{doukari2024ontology}.
+
+
 
 
