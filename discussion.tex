@@ -25,4 +25,46 @@ Compared with other multi-modal methods, the LLM-driven ontology-based safety ma
 \subsubsection{Cons}
 There are also some limitations of the LLM-driven ontology-based safety management system.
 
-Firstly, our system needs enough data support to build the ontology.
+Firstly, our system needs enough data support to build the ontology. Lacks of data, or data with bias 
+may lead to inaccurate ontology and unreliable results. 
+For example, we use the frequency of risks identified from the images to assign weights to the relation between risks and renovation activities.
+If the data is not enough, or the data is biased, the weights may not reflect the real relation between risks and activities.
+
+Secondly, the mapping from BIM to renovation activities may not be accurate. 
+Currently, we establish the mapping between BIM and renovation activities based on simple one-to-one and multiple-to-one mapping relationship
+between the components in BIM and the renovation activities.
+ However, in reality, the relation between BIM and renovation activities may be more complex. Multiple components in BIM interacted with each other may lead to more complex renovation activities.
+ For example the removal of a wall may involve the removal of the floor, the removal of the ceiling, etc.
+
+ Thirdly, we have not utilize the spatial information in the BIM model to support the safety management in renovation activities.
+ Currently, there is not an efficient methods propose an effective way to utilize the spatial information, especially the topological information of components in BIM for safety management in renovation activites and other construction activities. 
+ Although the BIM information has been extracted to support the safety management in renovation activities \cite[]{doukari2024ontology,shen2022bim}, the information is still tabular data related to components in BIM and not the spatial information.
+Our methods, also only use BIM to extract components in the building, more potential information in BIM, such as the spatial information, the topological information, etc. are remained to be explored.
+
+Lastly, the application of LLM, GPT-4o is zero-shot learning, which means the model is not trained on the specific task of safety management in renovation activities.
+During prompt tuning, the results are sometimes instable and the model may generate irrelevant results. 
+To improve the performance of the system, the model needs to be fine-tuned on the specific task of safety management in renovation activities.
+A fine-tuned model can provide more stable and reliable results, which can be used in practice.
+
+In conclusion, we propose a framework of LLM-driven ontology-based safety management system for renovation activities.
+The system can automatically generate ontology from unstructured text data and images, which saves time and labor costs.
+The system can also provide a more user-friendly interface for safety management in renovation activities.
+We observe the potential of the system in safety management in renovation activities, but there are still some limitations that need to be addressed in future research.
+
+\section{Conclusion \& Future Work}
+\label{sec:conclusion}
+This paper presents a novel LLM-driven ontology-based framework for safety management in building renovation. 
+We reuse existing ontology and leverage LLMs to automate the extraction of entities and relationships from multimodal data. 
+Our method significantly reduce the time and effort required for ontology construction.
+ The integration of BIM and multimodal data sources enhances the precision of risk identification and safety assessment. 
+ Our system also offers a user-friendly interface, 
+ facilitating interactions between users and the safety management framework.
+
+Despite its advantages, 
+such as scalability and dynamic adaptability, 
+the framework faces challenges including data dependency and the complexity of mapping BIM components to renovation activities. 
+\subsection{Future Work}
+Future research should focus on enhancing the accuracy of these mappings, 
+integrating spatial information from BIM, and fine-tuning LLMs for specific safety management tasks.
+ Overall, the proposed system holds promise for improving safety outcomes in renovation projects by providing comprehensive, 
+ real-time risk assessments.

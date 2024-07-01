@@ -1,6 +1,7 @@
 \section{Results \& Verification}
 \label{sec:results}
 % read revit file and 
+
 \subsection*{Input Data and Experiment setting}
 The Input Data will be BIM model in Revit format, which is a hospital. We assume that the renovation activity is to install 
 a new air conditioning system in the hospital. Here is the BIM model of the hospital (Figure \ref{fig:hospital}).
@@ -13,6 +14,42 @@ a new air conditioning system in the hospital. Here is the BIM model of the hosp
 
 The LLM model we choose is OpenAI's GPT-4o. We call the API of GPT-4o in Python environment to build our safety management system.
 The platform of Graph Database we choose is Neo4j. We use the Neo4j Desktop to build the graph database and query the graph database.
+
+\subsection{Graph Database Construction}
+The first step is converting the ontology to the graph database. The detailed steps is shown in section \ref{sec:ontology_coarse}
+Here we should the overview graph of ontology stored in Neo4j (Figure \ref{fig:ontology_graph}).
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/graph (2).png}
+    \caption{Ontology Graph in Neo4j}
+    \label{fig:ontology_graph}
+\end{figure}
+\subsection*{Ontology Enrichment}
+We input the images and regulation documents to the LLM model. The LLM model will generate two more relations on original ontology. \\
+The first relation is the relation between the renovation activities and the risks.
+ There is a new relation called 'hasIdentifiedRisk' between renovation activities and identified risk from collected images on each activited during the renovation process. 
+ The same risk may appeared more than once among different images, we will calculate the frequency of each risk appeared in the images. The frequency of each identifed risk will be stored in the attribute of the risk node in graph. 
+ 
+ The second relation is the regulation related to renovation activities. The LLM model will generate a new relation called 'hasRelatedRegulation' between renovation activities and the regulation documents.
+ This relation indicates that the regulation is applicable to the renovation activities. Another relation LLM extracted from regulation document is 
+ the relation "hasRegulatedEntity", which is relation between activities and entities appeared in the regulation document,
+ which indicates that the entities in renovation activities has to be regulated by the regulation document.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/risk identified.png}
+    \caption{Samples of extracted relation from images in Neo4j}
+    \label{fig:image_enrichment}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/regulation.png}
+    \caption{Samples of extracted relation from regulation documents Neo4j}
+    \label{fig:ontology_graph_enriched}
+\end{figure}
+
+After the ontology enrichment, the ontology graph in Neo4j is shown in Figure \ref{fig:ontology_graph_enriched,fig:image_enrichment}.
+The extracted information can be easily queried from the graph database, given the name of renovation activities involved in the renovation process.
 
 \subsection{The Final Interactive Interface}
 The final interactive interface is a QA system, which is run on command line mode. It could be transfer to a web-based platform
