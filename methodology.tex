@@ -213,14 +213,14 @@ After we store the data in graph database, we can query the frequency of all ide
     
     \begin{tabularx}{\textwidth}{ccX}
         \hline
-        \multicolumn{3}{c}{Prompt setting} \\
-        \hline
-        %left align the text
-        \multicolumn{3}{l}{Identify risks appear in the following image. The scope of risks are: \textless risks range \textgreater } \\
-        \multicolumn{3}{l}{only return the name of the risks that are present in the images,} \\
-        \multicolumn{3}{l}{the format should be JSON. The outputs should be organized in} \\
-        \multicolumn{3}{l}{the format of risks:[risk1,risk2,risk3]} \\
-        \hline
+        % \multicolumn{3}{c}{Prompt setting} \\
+        % \hline
+        % %left align the text
+        % \multicolumn{3}{l}{Identify risks appear in the following image. The scope of risks are: \textless risks range \textgreater } \\
+        % \multicolumn{3}{l}{only return the name of the risks that are present in the images,} \\
+        % \multicolumn{3}{l}{the format should be JSON. The outputs should be organized in} \\
+        % \multicolumn{3}{l}{the format of risks:[risk1,risk2,risk3]} \\
+        % \hline
         \textbf{Activity} & \textbf{Image} & \textbf{Identified Risks} \\
         \hline
         Ductwork\_removal & 
@@ -281,24 +281,29 @@ The regulation document processing results is shown in Table \ref{tab:related_re
 And the final output on the graph database is shown in Figure \ref{fig:related_regulation_query}.
 \footnote{the document of regulation1,2,3 are in the appendix}
 
-\begin{table*}
+\begin{table}
     \centering
     \label{tab:related_regulation_sample}
-    \begin{tabularx}{\textwidth}{cX}
-        \hline 
-        \multicolumn{2}{c}{Prompt setting} \\
+    \begin{tabularx}{0.5\textwidth}{cX}
+        % \hline 
+        % \multicolumn{2}{c}{Prompt setting} \\
+        % \multicolumn{2}{c}{Identify the activities among:  \textless exists\_activities \textgreater regulated by the given regulation
+        % and the entities involved in the regulation among: \textless exists\_entities \textgreater
+        % the resonpose should be divided according to the activities and its entities
+        % only return the name of the entities and activities the regulation applicable to, and retun the format should be json. in the format of 
+        % \textless activities1:[entities1,entities2,...],activities2:[entities1,entities2,...],...\textgreater, all the terms of entities and activities should be appeared in the database}
         \hline
         \textbf{Regulation Document} & \textbf{Identified Activity:[entities]}  \\
         \hline
-        regulation1 & Floor\_Slab\_removal:[Concrete\_Foundation\_Slab],Reinforcing\_Bars\_removal: [Reinforcing\_Bars]  \\
+        regulation1 & Floor\_Slab\_removal:[Concrete\_Foundation\_Slab], \newline Reinforcing\_Bars\_removal:[Reinforcing\_Bars]  \\
         \hline
-        regulation2 & Demolition\_Activity:[ Mechanical\_Equipment,Floor,Working\_Surfaces,Cranes,Derricks]  \\
+        regulation2 & Demolition\_Activity:[Mechanical\_Equipment,Floor, \newline Working\_Surfaces,Cranes,Derricks]  \\
         \hline
         regulation3 &  Structural\_demolition:[Nominal\_Breaking\_Strength, Crane\_Boom, Loadline,SwivelType\_Connection, Steel\_Members, Roof\_Cornice] \\
     \end{tabularx}
     % add a footnote that the regulation1,2,3 are in the appendix
     \caption{Related Regulation extraction sample}
-\end{table*}
+\end{table}
 
 \begin{figure}
     \label{fig:related_regulation_query}
