@@ -56,27 +56,51 @@ The final interactive interface is a QA system, which is run on command line mod
 or Autodest Revit. But for the convenience of the experiment, we only implement the command line mode.
 
 % the result of the system is still undefine,
-The dialogue between the user and the system is shown in the Figure %\ref{fig:dialogue}.
-% \begin{figure}
-%     \centering
-%     \includegraphics[width=0.5\textwidth]{figures/dialogue.png}
-%     \caption{Dialogue between the user and the system}
-%     \label{fig:dialogue}
-% \end{figure}
-The generated report is listed in the Table.
-% \begin{table}
-%     \centering
-%     \label{tab:report}
-%     \begin{tabular}{ccccc}`'
-%         \hline
-%         \textbf{Involved Activities} & \textbf{Risks} & \textbf{Risk Frequency} & \textbf{Related Regulation} & \textbf{} \\
-%         \hline
-        
-%         \hline
-%     \end{tabular}
-%     \caption{Generated Report}
-%     \label{tab:report}
-% \end{table}
+The dialogue between the user and the system is shown in the Figure \ref{fig:dialogue}.
+\begin{figure}
+    \centering
+    \label{fig:dialogue}
+    \includegraphics[width=0.5\textwidth]{figures/output screen shot.png}
+    \caption{Dialogue between the user and the system}
+    
+\end{figure}
+
+As we shown in the dialogue screen shot, firstly, the use input the direcotry of the BIM model in Revit format. 
+Then the system will load the BIM model and extract the building components in the model and searching the related renovation activities from 
+the ontology graph. Then user can input their requirements such as the renovation plan they hoep to implement, then the system will
+modify the list of possible renovation activities and entities. Finally, the report of the renovation activities, risks, and related regulations will be generated.
+
+Sample of results shown in the Table  \ref{tab:input_output}.
+\begin{table}
+    \centering
+    
+    \label{tab:input_output}
+    \begin{tabularx}{0.5\textwidth}{|c|X|X|X|}
+        \hline
+        Step & Input & Output &  Results \\
+        \hline
+        1 & Directory of BIM & Automatical search for all activities related to the building components: & see appendix  \ref{fig:output1}, \ref{fig:output1.1}\\
+        \hline
+        2 & I only want to install an air conditioner on the wall & The possible activities according to user description & see appendix \ref{fig:output2}, \ref{fig:output1.2}\\
+        \hline
+        3 & Agree with it & Generated report & see appendix \ref{fig:output3}, \ref{fig:output1.3} \\
+        \hline
+    \end{tabularx}
+    \caption{Sample of input and output in each step}
+\end{table}
+
+\subsection*{Summary}
+In summary, our system can adaptively query the related activites, risks, and regulations from the ontology graph based on the user's input.
+Compared with previous onotlogy-based safety management system for renovation activitis \cite[]{doukari2024ontology},
+our query result not only contains more knowledge, which is extracted from multimodal data, but also the searching result is more comprehensive,
+because the LLM system will automatically search all possible activities and entities related to the user's input.
+
+However, we should also notice that, the dialogue format is rigid and many missing data are found in the results. 
+Because we have not fine-tuned the LLM, currently the QA system require user answer in a specific format, which is flexible and robust.
+The missing data in the results is due to the lack of data support, which may lead to inaccurate ontology and unreliable results.   
+Since this paper only demonstrates the feasibility of the system, the future work will focus on the fine-tuning of the LLM model and the data collection to improve the performance of the system.
+
+
 
 
 
